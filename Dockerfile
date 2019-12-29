@@ -77,7 +77,7 @@ RUN chmod 755 /usr/local/bin/linuxdeployqt /usr/local/bin/appimagetool
 
 # Qt
 RUN apt build-dep -y qt5-default
-RUN apt install -y build-essential git python gperf flex bison pkg-config libgl1-mesa-dev make g++ libdbus-glib-1-dev libnss3-dev 
+RUN apt install -y build-essential git python gperf flex bison pkg-config libgl1-mesa-dev make g++ libdbus-glib-1-dev libnss3-dev libx11-xcb-dev libx11-dev
 
 
 # Missing
