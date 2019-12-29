@@ -124,5 +124,5 @@ RUN useradd -m -u $jenkins_uid -g $jenkins_gid  jenkins
 
 USER build
 
-ENTRYPOINT /bin/bash
+CMD /bin/bash
 
